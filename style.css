@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .pink{
     color: rgb(228, 6, 80);
 }
@@ -15,7 +18,7 @@ h1{
 .half-width img{
     width: 85%;
 }
-section{
+.flexible-container{
     display: flex;
     padding-bottom: 150px;
     padding-right: 7%;
@@ -36,4 +39,30 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgb(197, 72, 93);
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack-exp{
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#baby-exp{
+    border-left: 5px solid;
+    border-image: linear-gradient(pink, navy);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
